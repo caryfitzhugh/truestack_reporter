@@ -1,0 +1,7 @@
+# These are the secret access tokens that you need for your system.
+# You can have many of them, it's no big deal, separate for each server, or
+# all the same. Just means if one key is compromised, you have
+# 1 or all servers to replace!
+truestack:
+  access_key: '12345'
+  secret_key: '12345'

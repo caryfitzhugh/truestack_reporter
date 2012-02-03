@@ -1,0 +1,10 @@
+#!/bin/ruby
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require
+
+require 'true_stack/reporter'
+
+TrueStack::Reporter.run
